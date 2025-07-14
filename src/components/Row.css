@@ -1,0 +1,21 @@
+.row {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.row__title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px 0;
+  scroll-behavior: smooth;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
